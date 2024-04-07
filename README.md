@@ -28,6 +28,9 @@ git clone https://github.com/aldodarel/chatapp_golang.git
  ┃ ┣ 📜go.mod
  
  ┃ ┣ 📜go.sum
+ 
+ ┃ ┣ 📜README.md
+ 
 
 
 -> Open your XAMPP and start the Apache and MySQL module
@@ -66,19 +69,19 @@ go run Client.go
 
 -> Wait for the reply:
 ```sh
-"Masukkan pesan: "
+"Masukkan pesan: (your message)"
 ```
 If there is, so enter your message.
 
 -> If you have done, there is message like: 
 ```sh
-"Pesan terkirim: " 
+"Pesan terkirim: (your message)" 
 ```
 It means the messages have delivered
 
 -> Go to the first terminal and check to ensure the messages saved to your database. If delivered successfully, there is feedback: 
 ```sh
-"Pesan disimpan: "
+"Pesan disimpan: (your message)"
 ```
 
 -> Check your database table and if it's success, your message will appear there.
@@ -88,7 +91,7 @@ It means the messages have delivered
 
 
 
-
+Special thanks to https://dillinger.io/ for support me make this cool README.md
 
 ** THANK YOU **
 
